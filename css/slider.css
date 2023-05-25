@@ -1,0 +1,127 @@
+.popular_products__title {
+  color:#000000;
+  padding-top: 96px;
+  padding-bottom: 27px;
+}
+.slider {
+  position: relative;
+  padding: 0 40px;
+}
+.slick-track {
+  display: flex;
+  column-gap: 26px;
+}
+.slick-list {
+  overflow: hidden;
+}
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -90px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 7.5px;
+  height: 14px;
+  
+}
+.slider .slick-arrow.slick-prev {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  left: 0;
+  background: url('../image/arrowLeft.svg') 0 0 no-repeat;
+  padding: 13px;
+  border: 2px solid red; 
+  border: none;
+
+
+}
+.slider .slick-arrow.slick-next {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  right:0;
+  background: url('../image/arrowRight.svg') 0 0 no-repeat;
+  padding: 13px;
+  border: none;
+}
+.slider__item {
+  max-width: 358px;
+  border: 1px solid #F5F5F5;
+  position: relative;
+
+}
+.slider__img{
+  margin: 26px 75px;
+}
+.slider__text {
+  text-align: center;
+}
+.slider__subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+.slider__price {
+  display: flex;
+  padding-top: 24px;
+}
+.prices {
+  max-width:90px;
+  text-align: center;
+  border: 1px solid #F5F5F5;
+  padding: 10px 10px;
+  margin-bottom:20px;
+}
+.prices > :first-child {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 24px;
+} 
+.button {
+  width: 140px;
+  height: 40px;
+  background: #FFFFFF;
+  border-radius: 100px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  z-index: 0;
+}
+.button__basket {
+  color: #FFFFFF;
+  position: relative;
+  padding-left: 35px;
+}
+.button__basket::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url(../image/icon-menu/cartWhile.svg);
+  background-size: cover;
+}
+.icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.slider__compare {
+  top: 24px;
+  right: 24px;
+}
+.slider__star {
+  top: 57px;
+  right: 21px;
+}

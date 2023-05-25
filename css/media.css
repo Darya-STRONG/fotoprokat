@@ -1,0 +1,92 @@
+@media (max-width: 1440px) {
+  .features {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+
+  }
+}
+
+
+@media (max-width: 1200px) {
+  /* Стилі для великих екранів */
+  .banner__title p {
+    max-width: 445px;
+    top: 352px;
+  }
+  .circle {
+    top: 445px;
+  }
+  .feature {
+    flex-direction: column;
+  }
+  .feature p{
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Стилі для настільних комп'ютерів */
+  .banner__title p {
+    max-width: 700px;
+    top: 352px;
+  }
+  .circle {
+    top: 384px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Стилі для планшетів */
+  .banner__title p {
+    font-size: 0;
+  }
+  .circle {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  /* Стилі для мобільних пристроїв */
+  .banner__title p {
+    max-width: 175px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 42px;
+    color: #000000;
+    text-transform: lowercase;
+
+
+    position: relative;
+    left: 15px;
+    top: -140px;
+  }
+  .circle {
+    position: relative;
+    left: 0px;
+    top: -178px;
+  }
+  .banner img{
+    min-height: 375px;
+    object-fit: cover;
+    position: relative;
+  }
+  .features {
+    background: white !important;
+    column-gap: 24px;
+  }
+  .feature {
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+    height: 160px;
+    gap: 20px;
+  }
+  .feature p{
+    text-align: center;
+    min-width: 0;
+  }
+
+}
+

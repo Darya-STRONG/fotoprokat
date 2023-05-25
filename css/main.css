@@ -1,0 +1,28 @@
+.features {
+  display: flex;
+  column-gap: 64px;
+  padding: 45px 0;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  column-gap: 19px;
+  background: #F5F5F5;
+}
+.feature p{
+  color: #000;
+  min-width: 143px;
+}
+.concrete {
+  padding-top: 94px;
+  margin-bottom: 45px;
+}
+.concrete__text {
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 17px;
+}
+.concrete_container {
+  max-width: 570px;
+  margin: 0 auto;
+}
